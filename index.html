@@ -16,9 +16,9 @@
     body {
       background-image: url("https://cdn.pixabay.com/photo/2017/10/22/20/42/table-2879213_960_720.jpg");
       background-size: cover;
-    }
+    } 
   </style>
-</head>  
+</head> 
 <body>
   <div id="header">
   </div>
@@ -27,12 +27,13 @@
   <h1>피드백</h1>
   <hr>
   <h2>피드백 해주시고 싶은 내용을 적어주시면 감사하겠습니다.</h2>
-  <form action="item/memo.html" th:action method="post">
+  <form action="https://sdsdssdsdsd.github.io/HTML2/index">
     <textarea name="content" id="content" cols="30" rows="10" placeholder="내용"></textarea>
     <br>
-
     <button type="submit">등록</button>
-    <button onclick="location.href='memo_list.html'"
-            th:onclick="|location.href='@{/memos}'|"
-            type="button">취소</button>
-</form>
+  </form>
+  <form action="index.html" th:action method="post">
+    <button type="submit">취소</button>
+  </form>
+</div>
+</html>
